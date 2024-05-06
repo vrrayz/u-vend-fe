@@ -1,3 +1,5 @@
+'use client';
+
 import React, { useEffect, useState } from "react";
 import styled from "styled-components";
 import Image from "next/image";
@@ -52,7 +54,7 @@ export const Background = () => {
     </BackgroundSection>
   );
 };
-const BackgroundSection = styled.div`
+export const BackgroundSection = styled.div`
   // width: 100vw;
   height: 100vh;
   background: url(/assets/background_1.jpeg);

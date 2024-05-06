@@ -16,6 +16,9 @@ const config: Config = {
       colors: {
         "dodger-blue": "#0078FF",
         dimgray: "#5F6D7E",
+        darkslategray: "#272d37",
+        darkgray: "#919ba7",
+        whitesmoke: "#F5F5F5",
       },
     },
   },

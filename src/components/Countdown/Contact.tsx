@@ -1,5 +1,6 @@
 import React from "react";
 import styled from "styled-components";
+import { FormSection, StyledInput, StyledTextArea } from "../InputComponents";
 
 export const Contact = () => {
   return (
@@ -45,30 +46,11 @@ export const Contact = () => {
   );
 };
 
-const ContactSection = styled.div`
+export const ContactSection = styled.div`
   height: 100vh;
   display: flex;
   justify-content: center;
   flex-direction: column;
 `;
 
-const FormSection = styled.div`
-  max-width: 500px;
-  margin: 0 auto;
-`;
 
-const StyledInput = styled.input`
-  border: 1.08px solid #dae0e6;
-  border-radius: 6.47px;
-  display: block;
-  width: 100%;
-  padding: 12.93px 17.25px;
-`;
-
-const StyledTextArea = styled.textarea`
-  border: 1.08px solid #dae0e6;
-  border-radius: 6.47px;
-  display: block;
-  width: 100%;
-  padding: 12.93px 17.25px;
-`;
