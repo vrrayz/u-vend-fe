@@ -12,11 +12,11 @@ export const Login = () => {
     <>
     <Background />
     <ContactSection className="lg:w-5/12">
-      <FormSection className="px-4">
+      <FormSection className="px-4" style={{margin: '0px'}}>
         <h3 className="font-bold text-3xl text-center lg:mb-4 lg:px-12">
           Sign In
         </h3>
-        <p className="text-dimgray mb-4">Welcome Back!, you have been missed</p>
+        <p className="text-dimgray mb-4 text-center">Welcome Back!, you have been missed</p>
         <div>
           <StyledInput
             type="email"
