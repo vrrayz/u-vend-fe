@@ -14,7 +14,6 @@ export default function RootLayout({
 }>) {
   return (
     <div className="lg:flex">
-      <Background />
       {children}
     </div>
   );
