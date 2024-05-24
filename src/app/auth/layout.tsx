@@ -13,14 +13,9 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en">
-      <link rel="icon" href="/next.svg" sizes="any" />
-      <body>
-        <div className="lg:flex">
-          <Background />
-          {children}
-        </div>
-      </body>
-    </html>
+    <div className="lg:flex">
+      <Background />
+      {children}
+    </div>
   );
 }

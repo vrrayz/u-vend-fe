@@ -4,6 +4,7 @@ import React from "react";
 import { ContactSection } from "../Countdown/Contact";
 import { FormSection, StyledInput, StyledTextArea } from "../InputComponents";
 import { Divider } from "../Styled";
+import { GoogleLoginClient } from "./GoogleLoginClient";
 
 export const Login = () => {
   return (
@@ -53,6 +54,11 @@ export const Login = () => {
             <span className="text-darkgray">Or</span>
             <Divider />
         </div>
+        <GoogleLoginClient setExtraError={function (error: string): void {
+          throw new Error("Function not implemented.");
+        } } setShouldRedirect={function (value: boolean): void {
+          throw new Error("Function not implemented.");
+        } } />
       </FormSection>
     </ContactSection>
   );
