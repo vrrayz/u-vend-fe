@@ -41,3 +41,10 @@ const CustomBackground = styled(BackgroundSection)<{
   background-size: ${(props) => props.$backgroundSize || `contain`};
   background-repeat: no-repeat;
 `;
+
+export const BackgroundOverlay = styled.div`
+  width: 100%;
+  height: 100%;
+  background: rgb(0 0 0 / 30%);
+  position: relative;
+`;

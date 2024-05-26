@@ -3,6 +3,7 @@
 import React, { useEffect, useState } from "react";
 import styled from "styled-components";
 import Image from "next/image";
+import { Colors } from "../styles";
 
 export const Background = () => {
   const [timer, setTimer] = useState<string>("00:00:00:00");
@@ -74,5 +75,5 @@ const CountdownSection = styled.div`
   top: 30%;
   width: 100%;
   text-transform: uppercase;
-  color: #fff;
+  color: ${Colors.white};
 `;
