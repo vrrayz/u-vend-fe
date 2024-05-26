@@ -3,6 +3,7 @@ import styled from "styled-components";
 export const FormSection = styled.div`
   max-width: 500px;
   margin: 0 auto;
+  width: 100%;
 `;
 
 export const StyledInput = styled.input`
